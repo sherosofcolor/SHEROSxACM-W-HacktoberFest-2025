@@ -43,18 +43,19 @@ Here’s a simple guide to get started with your first pull request:
    - You now have your own copy under your GitHub account
 
 2. **Clone** your fork locally  
-   ```bash
+```bash
    git clone https://github.com/<your-username>/SHEROSxACM-W-HacktoberFest-2025.git
    cd SHEROSxACM-W-HacktoberFest-2025
+```
 3. Add the original repo as upstream:
-   ```bash
+```bash
    git remote add upstream https://github.com/sherosofcolor/SHEROSxACM-W-HacktoberFest-2025.git
-
+```
 4. Create a Branch for Your Work
 Use a descriptive branch name:
-   ```bash
+```bash
    git checkout -b feature/<short-description>-<your-name>
-
+```
 Examples:
   - feature/add-women-in-ai-scholarship-ritika
   - fix/typo-readme-anjali
@@ -72,13 +73,13 @@ Examples:
     
     💡 Tip: even a single sentence improvement counts — no effort is too small!
 6. Commit and push your change
-  ```bash
+```bash
    git add .
    git commit -m "Add <short description> by <your-name>"
    git push origin feature/<short-description>-<your-name>
+```
 7. If you’re working on your branch for a longer period of time, it’s a good practice to regularly sync it with the latest changes from the main repository. Before submitting your Pull Request, make sure your branch is up to date with the latest changes from the main branch
-
-   ```bash
+```bash
    # Switch to your local main branch
    git checkout main
 
