@@ -54,7 +54,8 @@ Here’s a simple guide to get started with your first pull request:
 Use a descriptive branch name:
    ```bash
    git checkout -b feature/<short-description>-<your-name>
-  Examples:
+
+Examples:
   - feature/add-women-in-ai-scholarship-ritika
   - fix/typo-readme-anjali
   - docs/update-getting-started-neha
@@ -72,9 +73,26 @@ Use a descriptive branch name:
     💡 Tip: even a single sentence improvement counts — no effort is too small!
 6. Commit and push your change
   ```bash
-      git add .
-      git commit -m "Add <short description> by <your-name>"
-      git push origin feature/<short-description>-<your-name>
+   git add .
+   git commit -m "Add <short description> by <your-name>"
+   git push origin feature/<short-description>-<your-name>
+7. If you’re working on your branch for a longer period of time, it’s a good practice to regularly sync it with the latest changes from the main repository. Before submitting your Pull Request, make sure your branch is up to date with the latest changes from the main branch
+
+   ```bash
+   # Switch to your local main branch
+   git checkout main
+
+   # Fetch the latest changes from upstream repo (SHEROs) to your fork.
+   git fetch origin
+
+   # Merge updates from the origin main branch to local main
+   git merge origin/main
+
+   # Switch back to your feature branch in local
+   git checkout feature/<short-description>-<your-name>
+
+   # Merge main into your feature branch in local
+   git merge main
 ```
 ---
 
