@@ -60,6 +60,12 @@ Examples:
   - feature/add-women-in-ai-scholarship-ritika
   - fix/typo-readme-anjali
   - docs/update-getting-started-neha
+
+To change branches 
+```bash
+   git checkout <branch-name>
+```
+
 5. Make Your Contribution
     You can:
     
