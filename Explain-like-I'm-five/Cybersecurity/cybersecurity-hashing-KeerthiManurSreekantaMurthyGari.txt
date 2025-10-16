@@ -1,0 +1,16 @@
+Hashing and Integrity
+
+Hashing is a way to take any piece of data, including a message, a file, or even a password, and 
+convert it into a fixed-size string of characters, often called a hash or digest. Think of it like a digital 
+fingerprint: each unique input produces a unique hash. Even the smallest change to the original data will create a 
+completely different hash, which makes hashing ideal for checking integrity. For example, when you download software, 
+the website often provides a hash of the file so you can verify that your download hasn’t been corrupted or tampered with.
+
+Unlike encryption, hashing is one-way: you can’t reverse it to recover the original input. This property makes it extremely 
+useful for storing sensitive information like passwords. Instead of saving the password itself, systems store its hash. 
+During login, the system hashes the entered password and compares it with the stored hash. If they match, the password is 
+correct — even though the system never knows the original password.
+
+Hashes are also a critical part of digital signatures and blockchain technology, where they ensure that messages and 
+transactions haven’t been altered. In short, hashing provides a simple, reliable way to verify that data remains exactly as 
+intended, acting as a digital “tamper detector” for the information we rely on every day.
