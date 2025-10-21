@@ -1,0 +1,11 @@
+                                 Feature Selection – Finding which variables actually matter.
+
+
+
+Imagine you built a huge LEGO castle with 1,000 pieces. It has every little detail — doors, windows, towers, and flags. That’s a lot of pieces, and it takes a long time to build.
+
+So, you decide to make a smaller version of the same castle using only 100 pieces. This version doesn’t have all the tiny details like flags and windows, but it still looks like a castle. 
+
+That’s what dimensionality reduction is about — it takes a big dataset full of detailed information and makes a smaller version that still shows the most important parts.
+
+Even though you used fewer LEGO pieces, you can still recognize it as a castle — just like we can still understand data even with fewer “pieces” (features).
