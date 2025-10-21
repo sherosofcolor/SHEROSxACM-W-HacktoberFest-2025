@@ -1,0 +1,12 @@
+Greedy algorithms make decisions step by step, always choosing what looks best at the moment without worrying 
+too much about the bigger picture. At each stage, the algorithm picks the most promising option and moves on, 
+trusting that a series of good local choices will add up to a strong overall solution.
+
+This approach works well for problems like coin change (finding the fewest coins for a given amount when 
+denominations fit well), Kruskal’s or Prim’s algorithm for finding a minimum spanning tree, and Huffman 
+coding for data compression.
+
+The main strength of greedy algorithms is their simplicity. They don’t backtrack or reconsider earlier 
+decisions, which makes them fast and easy to implement. The tradeoff is that they don’t always guarantee 
+the absolute best answer for every problem. But when they do, they offer an elegant and efficient way to solve 
+complex tasks.
