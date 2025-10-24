@@ -1,0 +1,16 @@
+                                Sorting – Organizing chaos (bubbles, merges, and quick ways) 
+
+
+Imagine you baked a bunch of cookies, but they all came out in different sizes. To sort them from smallest to biggest, 
+you start by splitting the big pile into smaller piles — first halves, then quarters — until each pile has just one cookie. 
+Each cookie on its own is already sorted.
+
+Next, you start putting two cookies together at a time, always placing the smaller cookie before the bigger one. 
+Once you have small sorted pairs, you join these pairs into bigger groups, again checking which cookie is 
+smaller and arranging them in order. 
+
+You keep doing this — comparing, merging, and growing your groups — until all the cookies are in one big line, 
+perfectly ordered from the tiniest to the largest. 
+
+That’s how merge sort works: you break a big, messy problem into little pieces, sort those small parts, 
+and then carefully merge them back together in the right order.
